@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<style>
+.btn{
+    background: rgb(158, 226, 243);
+    color: white;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    background: rgb(158, 226, 243);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    margin: 5px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+/* Menú en computador */
+.navegacion-principal{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Imágenes adaptables */
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive para celular */
+@media (max-width: 768px){
+
+    .navegacion-principal{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn{
+        width: 90%;
+        text-align: center;
+    }
+
+    h1, h2, h3, p{
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .servicios{
+        display: block;
+    }
+
+    .servicio{
+        margin-bottom: 20px;
+    }
+
+    form{
+        width: 100%;
+        padding: 10px;
+    }
+
+    input, textarea{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La franquicia de Digimon</title>
+    <meta name="Descripcion de Digimon" content="¿Que son los Digimons?">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <header>
+    <h1 class="titulo">Digimon-<span>tipos</span></h1>
+    </header>
+
+    <div class="nav-bg">
+    <nav class="navegacion-principal contenedor">
+    <a class="btn" href="index.html">Home</a>
+    <a class="btn" href="Digimons.html">Pequeños o etapa child</a>
+    <a class="btn" href="Evolucion.html">¿Cómo funciona la evolución?</a>
+    <a class="btn" href="Razas.html">¿Cuántas razas de Digimons existen?</a>
+</nav>
+    </nav>
+    </div>
+    <main>
+        
+    <section class="hero">
+    <div class="contenido-hero">
+    <h2> Digimon-Atributos</h2>
+    <p> Conoce al Mundo Digital
+    <a class="bottom btn" href="https://www.youtube.com/@LosArchivosdeIzzy">
+    Digi-Capturalos
+    </a>
+    </p>
+    </div>
+    </section>
+
+<main class="contenedor sombra">
+<h2>Digimon-Atributos</h2>
+
+
+<div class="servicios">
+
+<section class="servicio">
+<h3> Un breve resumen de su universo general</h3>
+<div class="icono">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#05eafa" class="icon icon-tabler icons-tabler-filled icon-tabler-star"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z" /></svg>
+</div>
+<p>El universo de Digimon se centra en el "Mundo Digital" (o Digimundo), un espacio virtual paralelo 
+    creado por datos de redes de comunicaciones terrestres y habitado por criaturas digitales llamadas Digimon.
+     Los Digimon evolucionan (digievolucionan) y son frecuentemente entrenados por humanos ("Niños Elegidos" o "Tamers") 
+     para combatir amenazas, basado en la franquicia original de mascotas virtuales de 1997.</p>
+
+<a href="https://www.youtube.com/watch?v=XkMt4AS0Ghk">
+    <img src="C:\Users\Juanj\Downloads\Trabajo Clase 6 JJB T5-20260408T172650Z-3-001\Trabajo Clase 6 JJB T5\images\personajes-digimon-640x506.png" alt="Echa un vistazo a la Cronologia del universo Digimon" width="400">
+</a>
+
+  </section>
+
+<section class="servicio">
+    <h3> Los atributos de los Digimons- Mas menos los tipos en Pokemon</h3>
+    <div class="icono">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#05eafa" class="icon icon-tabler icons-tabler-filled icon-tabler-star"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z" /></svg>
+</div>
+    <p>Los atributos en Digimon son una clasificación fundamental que define la "esencia" o el tipo de archivo de un Digimon,
+         determinando ventajas y desventajas en combate estilo piedra-papel-tijera: Vacuna supera a Virus, 
+         Virus supera a Datos, y Datos supera a Vacuna. Estos atributos influyen en la efectividad de los ataques
+        y en la personalidad del monstruo.</p>
+
+<a href="https://www.youtube.com/watch?v=Sv4_yPEHc8U&t=32s">
+    <img src="C:\Users\Juanj\Downloads\Trabajo Clase 6 JJB T5-20260408T172650Z-3-001\Trabajo Clase 6 JJB T5\images\digiconceptos.jpg" alt="Echa un vistazo a la Cronologia del universo Digimon" width="600">
+</a>
+
+</section>
+
+<section class="servicio">
+    <h3> Los Digivices o Dispositivos Tamers</h3>
+    <div class="icono">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#05eafa" class="icon icon-tabler icons-tabler-filled icon-tabler-star"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z" /></svg>
+    </div>
+    <p>Los Digivices (dispositivos digitales) son herramientas clave en el universo Digimon que permiten a los niños 
+        elegidos potenciar y evolucionar a sus compañeros Digimon. Basados en mascotas virtuales, estos aparatos 
+        detectan energía maligna, almacenan Digimon y facilitan la "Digievolución", apareciendo en diversas formas a lo 
+        largo de las temporadas del anime y manga.</p>
+
+<a href="https://www.youtube.com/watch?v=kCtvPXRH4wk&t=1171s">
+    <img src="C:\Users\Juanj\Downloads\Trabajo Clase 6 JJB T5-20260408T172650Z-3-001\Trabajo Clase 6 JJB T5\images\digimondispositivos.jpg" alt="Echa un vistazo a la Cronologia del universo Digimon" width="600">
+</a>
+
+    </section>
+    
+</main>
+
+<section> 
+<h2> Los Tamers</h2>
+<form>
+    <fieldset>
+     <legend>
+     Para contactarte con el sistema digital, Iliada. deja tu mensaje aqui!
+     </legend>
+     <div>
+     <label for="Nombre">Apodo Tamer</label>
+     <input type="Apodo Tamer">
+     </div>
+     <div>
+     <label for="Telefono" placeholder="Numero Cel">Digi-contacto</label>
+     <input type="tel" placeholder="Digi-contacto">
+     </div>
+     <div>
+     <label for="correo" placeholder="Gmail">Codigo Digital</label>
+     <input type="email" placeholder="Codigo Digital">
+     </div>
+     <textarea name="Mensaje"></textarea>
+     <input type="submit" value="Enviar">
+    </fieldset>
+</form>  
+</section>
+<footer> 
+    <p> Aqui todas las razas de Digimons que existen y sus zonas predeterminadas</p>
+    <a href="https://digimon.fandom.com/es/wiki/Listado_Visual_de_Digimon"> Echa un vistazo a la enorme lista de Digimons que existen</a>
+    <p> Aqui observa el gran vasto Mundo Digital y todas sus ubicaciones</p>
+    <a href="https://es.wikipedia.org/wiki/Mundo_Digital#:~:text=Gran%20Cañón:%20un%20profundo%20cañón,que%20es%20habitada%20por%20Vamdemon."> Informacion de Ecosistemas y ciudades que se ubican en el Mundo Digital</a>
+</footer>
+
+</body>
+</html>
